@@ -1,0 +1,23 @@
+Question 2: What is the output of var_dump($person);?
+
+print_r('Hello');
+print_r([1,2,3]);
+
+class Person {
+	public $name;
+	public $age;
+}
+
+
+$person = new Person();
+$person->name = "Alice";
+$person->age = 25;
+
+
+Answer: by using var_dump, it will simply display the information about a variable, including its data type,  size and value.
+
+var_dump($person);
+
+output:
+	string(5) "Alice"
+	int(25)
