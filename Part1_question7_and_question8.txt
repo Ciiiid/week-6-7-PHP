@@ -1,0 +1,13 @@
+$colors = ["red", "green", "blue"];
+echo $colors[0]
+
+$numbers = [1, 2, 3, 4, 5]
+
+Question 7: What is the output of echo $numbers[3] + $numbers[4]?
+Answer:
+	9
+
+Question 8: What is the output of echo $colors[3];?
+Answer:
+	it will generate a notice or somehow cause an error because the array has only three elements
+	
