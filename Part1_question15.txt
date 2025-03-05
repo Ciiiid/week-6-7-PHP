@@ -1,0 +1,45 @@
+$fruits = ['apple', 'banana', 'orange'];
+echo count($fruits);
+     *in_array() - search array
+
+$fruits = ['apple', 'banana', 'orange'];
+echo in_array('banana', $fruits);
+     *array_push() and array_unshift() - add element to an array
+
+$fruits[] = 'grape';
+array_push($fruits, 'mango', 'raspberry');
+array_unshift($fruits, 'kiwi'); // Adds to the beginning
+     *array_pop() and array_shift() - remove element from array
+
+array_pop($fruits); // Removes last
+array_shift($fruits); // Removes first
+     *unset() - remove specific element
+
+unset($fruits[2]);
+    *array_chunk() - split array
+
+$chunkedArray = array_chunk($fruits, 2);
+
+Question 15: What is the output of var_dump($chunkedArray);?
+Answer:
+	array(3) {
+          [0]=>
+          array(2) {
+            [0]=>
+            string(5) "apple"
+            [1]=>
+            string(6) "banana"
+          }
+          [1]=>
+          array(2) {
+            [0]=>
+            NULL
+            [1]=>
+            string(6) "grape"
+          }
+          [2]=>
+          array(1) {
+            [0]=>
+            string(6) "mango"
+          }
+        }
