@@ -1,0 +1,9 @@
+$name = 'Brad';
+$age = 40;
+$hasKids = true;
+$cashOnHand = 10.5;
+
+Question 3: What is the output of var_dump($cashOnHand);?
+
+Answer:
+	float(10.5)
