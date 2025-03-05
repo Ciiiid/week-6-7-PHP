@@ -1,0 +1,14 @@
+define("CONSTANT_NAME", "constant_value");
+
+examples
+define('HOST', 'localhost');
+define('USER', 'root');
+
+Question 5: What is the output of echo HOST?
+Answer: 
+	localhost
+
+Question 6: How will you define in PHP the variable PI with value 3.1416?
+Answer:
+	define('PI', 3.1416)
+	echo PI;
