@@ -1,0 +1,17 @@
+print_r('Hello');
+print_r([1,2,3]);
+
+class Person {
+    public $name;
+    public $age;
+}
+
+$person = new Person();
+$person->name = "Alice";
+$person->age = 25;
+
+Question: What is the output of print_r($person);?
+
+Answer: 
+	[name] => Alice
+	[age] => 25
