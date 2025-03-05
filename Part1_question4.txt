@@ -1,0 +1,6 @@
+echo "$name is $age years old";
+echo "{name} is ${age} years old";
+echo '<h3>' . $name . 'is' . $age . 'years old</h3>';
+
+Question 4: What character is used to concatenate strings?
+Answer: .(dot) is used to concatenate strings
